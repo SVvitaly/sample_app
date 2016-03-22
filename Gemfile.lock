@@ -181,7 +181,7 @@ DEPENDENCIES
   coffee-rails (= 4.0.1)
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
-  pg (= 0.15.1)
+  pg
   rails
   rails_12factor (= 0.0.2)
   rspec-rails (= 3.4.2)
@@ -193,4 +193,4 @@ DEPENDENCIES
   uglifier (= 2.1.1)
 
 BUNDLED WITH
-   1.10.3
+   1.11.2
