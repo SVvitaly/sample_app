@@ -5,9 +5,10 @@ ruby '2.2.1'
 gem 'rails'
 gem 'pg', '>=0'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
-  gem 'rspec-rails','3.4.2'
+  gem 'rspec-rails', '>2.3.0'
   gem 'sqlite3'
 end
 

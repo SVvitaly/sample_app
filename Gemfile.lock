@@ -38,6 +38,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
+    bcrypt-ruby (3.1.2)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
     builder (3.2.2)
@@ -81,7 +82,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
-    pg (0.15.1)
+    pg (0.18.4)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -176,6 +177,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby (= 3.1.2)
   bootstrap-sass (= 2.3.2.0)
   capybara
   coffee-rails (= 4.0.1)
@@ -184,7 +186,7 @@ DEPENDENCIES
   pg
   rails
   rails_12factor (= 0.0.2)
-  rspec-rails (= 3.4.2)
+  rspec-rails (> 2.3.0)
   sass-rails
   sdoc (= 0.3.20)
   selenium-webdriver (= 2.35.1)
